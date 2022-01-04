@@ -5,11 +5,17 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+.flexable-container{
+    display: flex;
+    margin-bottom: 150px;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
 }
 
 .half-width{
@@ -31,9 +37,8 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    display: flex;
-    margin-bottom: 150px;
 }
-.about-me{
-    display: flex;
+.experience-item{
+    
+    box-shadow: 10px 10px 40px gray;
 }
